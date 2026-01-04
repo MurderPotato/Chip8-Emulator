@@ -21,6 +21,7 @@ Once the executable is Built, you can run any ROM from the ROMS folder using thi
 ```
 chip8.exe <ROM_FILE> <CYCLES_PER_FRAME>
 ```
+The Chip8 uses a 4x4 keypad which is mapped from 1 to v on a QWERTY keyboard
 
 ### Example Images
 
