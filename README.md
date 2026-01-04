@@ -1,6 +1,6 @@
 # Chip8 Emulator
 
-This is my implementation of the Chip8 written in plain C using SDL3 for the graphics.
+This is my implementation of the Chip8 written in C and using SDL3 for the graphics.
 It was designed to be compiled and ran on windows but should run on linux as well.
 
 ## Build Instructions
