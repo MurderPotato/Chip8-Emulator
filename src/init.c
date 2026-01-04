@@ -53,7 +53,9 @@ void initializeValues(Chip8 *values) // zeroes registers and memory
 
 int loadROM(const char *filename, Chip8 *values) // loads file into RAM
 {
-  FILE *file = fopen(filename, "rb");
+  char filePath[256];
+  snprintf(filePath, sizeof(filePath), "ROMS/%s", filename);
+  FILE *file = fopen(filePath, "rb");
   if (!file)
   {
     SDL_Log("File Failed to Open");
