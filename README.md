@@ -19,7 +19,7 @@ SDL3-devel-3.4.0-mingw.zip from https://github.com/libsdl-org/SDL/releases/tag/r
 
 Once the executable is Built, you can run any ROM from the ROMS folder using this command:
 ```
-./chip8.exe <ROM_FILE> <CYCLES_PER_FRAME>
+chip8.exe <ROM_FILE> <CYCLES_PER_FRAME>
 ```
 
 ### Example Images
